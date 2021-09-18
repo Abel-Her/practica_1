@@ -54,7 +54,7 @@ while On:
             pass
     if op == 2:
         try:
-            t = input('Ingrese el número de segundos: ')
+            t = int(input('Ingrese el número de segundos: '))
         except ValueError:
             pass
     if op == 3:
